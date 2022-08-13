@@ -1,2 +1,2 @@
 # marker
-for bookmark using localStorage
+for bookmarker using localStorage
