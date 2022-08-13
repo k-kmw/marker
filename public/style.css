@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    background-color: skyblue;
+    padding: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+/* link */
+.links__container {
+    padding: 0;
+}
+
+/* folder */
+
+.folders__container span {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+
+.folders__container span {
+    cursor: pointer;
+}
+
+.folders__container ul li{
+    display: block;
+    margin-right: 10px;
+}
+
+.folders__container ul{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.folders__container ul.wrap li{
+    display:none;
+}
+
+.folders__container ul span,
+.folders__container ul button {
+    display: inline-block;
+}
+/* botton */
+.btns {
+    margin: 8px;
+}
